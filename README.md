@@ -1,7 +1,8 @@
 # showere
 JavaScript projects to practice.
 
-[![Watch the video](//showere_preview.PNG)](https://github.com/dimainc26/showere/blob/main/showere_demo.mkv)
+![showere_preview](https://github.com/dimainc26/showere/assets/125144533/e6eeeec1-5561-4392-a09c-5470a6b1be56)
+
 
 Watch Video Here!
 
