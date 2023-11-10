@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showere</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body class="body">
+    <!-- NavBar -->
+    <nav class="nav-bar">
+        <ul class="nav-position">
+            <li class="nav-position-item"><a href="#">Page d'accuil </a></li>
+            <ion-icon class="icon" name="chevron-down"></ion-icon>
+        </ul>
+        <p class="display-box">
+            <ion-icon class="display-icon active" name="laptop-outline"></ion-icon>
+            <ion-icon class="display-icon" name="phone-portrait-outline"></ion-icon>
+        </p>
+        <div class="void-space"></div>
+        <p class="command-box">Previsualiser</p>
+        <p class="command-box">Publier</p>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="container-bar">
+            <p class="left-icon">
+                <ion-icon name="triangle-outline"></ion-icon>
+                <ion-icon name="triangle-outline"></ion-icon>
+                <ion-icon name="triangle-outline"></ion-icon>
+            </p>
+
+            <a href="#" class="right-icon">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="top-menu">
+            <ul class="menu-list">
+                <li class="menu-item">
+                <li class="menu-item">
+                    <input type="file" accept="image/*" class="file" name="file" id="file">
+                </li>
+
+                <li class="menu-item"><button href="#"> <ion-icon name="settings-outline"></ion-icon> </button></li>
+                <li class="menu-item"><button href="#"> <ion-icon name="color-wand-outline"></ion-icon> </button></li>
+                <li class="menu-item"><button href="#"> <ion-icon name="pencil-outline"></ion-icon> </button></li>
+                <li class="menu-item"><button href="#"> <ion-icon name="arrow-back-outline"></ion-icon> </button></li>
+            </ul>
+        </div>
+
+        <!-- Interactive container -->
+        <div class="interactive-container" id="interactive-container" >
+            <!-- Image -->
+            <p class="image-box">
+                <img id="image-preview"
+                    src="https://i.shgcdn.com/daf97205-90be-4e32-911a-aeac99bc1f6c/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+                    alt="preview">
+            </p>
+
+            <h1 class="title-box" id="title-editable" contenteditable="true" role="textbox">
+                Collection Sneakers
+            </h1>
+
+            <!-- Text Style -->
+            <div class="text-editor-box">
+                <ul class="menu-list">
+
+                    <li class="menu-item"><button id="boldButton" class="bold">Bold </button></li>
+                    <li class="menu-item"><button id="italicButton" class="italic">Italic </button></li>
+                    <li class="menu-item"><button id="underlineButton" class="underline">Underline </button></li>
+
+                </ul>
+            </div>
+
+            <!-- Paragraph Style -->
+            <div class="paragraph-editor-box">
+                <h2>Parametres</h2>
+                <div class="slider-box">
+                    <div class="slider-left">
+                        <p>Taille de la police</p>
+                        <!-- TODO: slider input  -->
+                        <input id="font-size-input" type="range" class="slider-input"  min="40" max="90" step="1" />
+                    </div>
+                    <div class="slider-right">
+                        <p id="font-size">40</p>
+                    </div>
+                </div>
+                <div class="color-box">
+                    <p>Couleur</p>
+                    <input type="color" name="color" id="color">
+                </div>
+                <div class="alignment-box">
+                    <p>Alignment</p>
+                    <ul class="align-list">
+                        <li class="align-item">
+                            <ion-icon name="reorder-three-outline" ></ion-icon>
+                        </li>
+                        <li class="align-item">
+                            <ion-icon name="reorder-three-outline" ></ion-icon>
+                        </li>
+                        <li class="align-item">
+                            <ion-icon name="reorder-three-outline" ></ion-icon>
+                        </li>
+                        <li class="align-item">
+                            <ion-icon name="reorder-three-outline" ></ion-icon>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+
+            <section class="left-utils">
+                <ul class="utils-list">
+                    <li><button id="new-paragraph" class="util"><ion-icon name="chatbubble-outline"></ion-icon></button></li>
+                    <li><button class="util"><ion-icon name="brush-outline"></ion-icon></button></li>
+                    <li><button class="util"><ion-icon name="contrast-outline"></ion-icon></button></li>
+                    <li><button class="util"><ion-icon name="qr-code-outline"></ion-icon></button></li>
+                    <li><button class="util"><ion-icon name="share-outline"></ion-icon></button></li>
+                </ul>
+            </section>
+
+
+        </div>
+
+    </main>
+
+    <script src="./src/scripts.js"></script>
+
+
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
