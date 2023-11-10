@@ -1,4 +1,4 @@
 # showere
 JavaScript projects to practice.
 
-"./showere_demo.mkv
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
