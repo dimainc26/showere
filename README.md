@@ -15,7 +15,6 @@
 ## Captures d'écran
 ![Home Screen](https://github.com/dimainc26/showere/blob/main/assets/home.png)
 ![Feature 1](https://github.com/dimainc26/showere/blob/main/assets/home_1.png)
-![Feature 2](https://github.com/dimainc26/showere/blob/main/assets/home_2.png)
 
 ## Démo
 [Lien vers la démo](https://dev.dimazanre.com/showere)
