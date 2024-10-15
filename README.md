@@ -5,7 +5,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/dimainc26/showere)
 
 ## Description
-**Showere** est un projet initialement conçu pour apprendre et expérimenter avec les événements JavaScript de base. Il implémente des fonctionnalités telles que le drag-and-drop, le scroll, et d'autres interactions simples basées sur JavaScript. Ce projet a pour objectif de démontrer l'utilisation des événements interactifs et d'explorer les capacités dynamiques du langage. À terme, l'ambition est de l'enrichir en ajoutant des fonctionnalités utiles, comme la possibilité d'ajouter du texte sur des images, afin de le transformer en un outil plus pratique et polyvalent.
+**Showere** est un projet conçu pour explorer les événements JavaScript basiques, tels que le drag-and-drop, le scroll, et les interactions élémentaires. Ce projet servait initialement d'exercice d'apprentissage, mais son objectif évolue vers quelque chose de bien plus ambitieux : un éditeur d'images interactif. À terme, **Showere** permettra aux utilisateurs de manipuler et d'éditer des images, avec des fonctionnalités comme l'ajout de texte ou d'éléments graphiques sur les images. Ce projet en développement se transformera progressivement en un outil pratique et créatif, idéal pour ceux qui souhaitent personnaliser des visuels directement dans leur navigateur.
+
 
 ## Technologies utilisées
 - JavaScript
